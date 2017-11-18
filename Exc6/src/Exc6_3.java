@@ -5,6 +5,8 @@ public class Exc6_3 {
         Scanner keyboard = new Scanner(System.in);
         String place;
         String status;
+        String ph;
+        ph = "both";
 
         System.out.println("Think of something and i'll try to guess it!");
         System.out.print("\nQuestion 1) Does it stay inside or outside or both? > ");
@@ -18,10 +20,10 @@ public class Exc6_3 {
         if ( place.equals("outside") && status.equals("no")){
             System.out.println("\nIt is a billboard, isn't it?");
         }
-        if ( place.equals("both") && status.equals("yes")){
+        if ( place.equals(ph) && status.equals("yes")){
             System.out.println("\nIt is a dog, isn't it?");
         }
-        if ( place.equals("both") && status.equals("no")){
+        if ( place.equals(ph) && status.equals("no")){
             System.out.println("\nIt is a cell phone, isn't it?");
         }
         if ( place.equals("inside") && status.equals("yes")){
