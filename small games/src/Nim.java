@@ -28,9 +28,11 @@ public class Nim {
         player2 = keyboard.next();
         System.out.println();
 
+        System.out.println("A: " + pile1 + "\tB: " + pile2 + "\tC: " + pile3);
+        System.out.println();
+
         do{
-            System.out.println("A: " + pile1 + "\tB: " + pile2 + "\tC: " + pile3);
-            System.out.println();
+
             System.out.print(player1 +", choose a pile: ");
             String choose = keyboard.next();
             System.out.print("How many to remove from pile " + choose + ": ");
@@ -46,6 +48,7 @@ public class Nim {
             System.out.println();
             System.out.println("A: " + pile1 + "\tB: " + pile2 + "\tC: " +pile3);
             System.out.println();
+
             if (pile1 == 0 && pile2 == 0 && pile3 == 0){
                 System.out.println(player1 + ", there are no counters left, so you LOSE!");
                 System.exit(0);
@@ -63,12 +66,13 @@ public class Nim {
                 pile3 = (pile3 - remove);
 
             System.out.println();
+            System.out.println("A: " + pile1 + "\tB: " + pile2 + "\tC: " + pile3);
+            System.out.println();
+
             if (pile1 == 0 && pile2 == 0 && pile3 == 0) {
                 System.out.println(player2 + ", there are no counters left, so you LOSE!");
                 System.exit(0);
             }
-
-
 
         }while (pile1 > 0 || pile2 > 0 || pile3 > 0);
     }
