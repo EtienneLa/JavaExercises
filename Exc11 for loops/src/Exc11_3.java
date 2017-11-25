@@ -13,7 +13,7 @@ public class Exc11_3 {
         System.out.print("Count by: ");
         int cby = keyboard.nextInt();
 
-        for ( int n = cfrom; n != cto+cby; n=n+cby) {
+        for ( int n = cfrom; n <= cto; n=n+cby) {
             System.out.print(n + " ");
         }
     }
