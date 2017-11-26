@@ -18,6 +18,14 @@ public class Exc11_8 {
 
         for (int i=0; i<message.length(); i++)
             System.out.println(i + ". '" + message.charAt(i) + "'");
+        int count=0;
+        for ( int i=0; i<message.length(); i++){
+            char letter = message.charAt(i);
+            if ( letter == 'a' || letter == 'A')
+                count++;
+        }
+
+        System.out.println("Your message has " + count + " A's.");
 
     }
 }
