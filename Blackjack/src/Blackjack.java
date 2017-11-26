@@ -40,7 +40,7 @@ public class Blackjack {
             }
         }while( pt <= 21 && hors.equals("Hit"));
 
-        if ( pt > 21){
+        if ( pt > 21){                                                                                                  //player busts
             System.out.println("\nYou bust (got a total over 21), DEALER WINS!");
             System.exit(0);
         }
@@ -51,7 +51,7 @@ public class Blackjack {
         System.out.println("His hidden total was " +dt +".");
         System.out.println();
 
-        while (dt <= 16){
+        while (dt <= 16 && dt < pt){
             System.out.println("Dealer choses to hit.");
             int d3 = 2+rng.nextInt(10);
             dt = dt+d3;
@@ -60,7 +60,7 @@ public class Blackjack {
             System.out.println();
         }
 
-        if (dt > 21){
+        if (dt > 21){                                                                                                   //dealer busts
             System.out.println("\nDealer busts (got a total over 21), YOU WIN!");
             System.exit(0);
         }
