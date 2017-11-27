@@ -64,7 +64,6 @@ public class Blackjack {
             System.out.println("\nDealer busts (got a total over 21), YOU WIN!");
             System.exit(0);
         }
-        System.out.println();
         System.out.println("Dealer stays.");
         System.out.println();
 
