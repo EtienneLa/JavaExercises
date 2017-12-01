@@ -14,6 +14,19 @@ public class Exc12_5 extends Canvas{
         g.drawArc(350,350,100,100,45,90);
 
 
+
+        g.setColor(Color.black);
+        g.setFont(new Font(null));
+        for ( int X=0; X<800; X += 50 )
+            g.drawString( String.valueOf(X), X, 50 );
+        for ( int Y=100; Y<600; Y += 50 )
+            g.drawString( String.valueOf(Y), 28, Y );
+
+        g.setColor(Color.lightGray);
+        for ( int X=0; X<800; X += 50 )
+            g.drawLine(X,0,X,599);
+        for ( int Y=0; Y<600; Y += 50 )
+            g.drawLine(0,Y,799,Y);
     }
     public static void main(String[]args){
 
