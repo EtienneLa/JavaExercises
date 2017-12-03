@@ -11,14 +11,15 @@ class Exc12_10 extends Canvas{
         for(int i = 0; i < 10; i++){
 
             int r = rng.nextInt(256),g = rng.nextInt(256),b = rng.nextInt(256);
-            int x = 20+rng.nextInt(600), y = 20+rng.nextInt(450);
+            int asdf = 20+rng.nextInt(600), y = 20+rng.nextInt(450);
             int h = 40+rng.nextInt(200), w = 40+rng.nextInt(200);
 
-            Color c = new Color(r,g,b);
+            Color color = new Color(r,g,b);
 
-            Viereck(v,c,x,y,w,h);
+            Viereck(v, color, asdf, y, w, h);
         }
     }
+
     public void Viereck(Graphics v, Color c, int x, int y, int h, int w){
 
         v.setColor(c);
