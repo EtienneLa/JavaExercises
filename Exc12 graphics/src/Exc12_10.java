@@ -19,11 +19,6 @@ class Exc12_10 extends Canvas{
             Viereck(v, color, x, y, w, h);
         }
     }
-/*
-test
-test
- */
-
 
     public void Viereck(Graphics v, Color c, int x, int y, int h, int w){
 
