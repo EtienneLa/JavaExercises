@@ -42,7 +42,7 @@ public class Exc13_7 {
         int total = yy / 4;
         total += yy + dd + getOffset( mm );
 
-        if ( is_leap( yyyy ) == 1 && mm <= 2){
+        if ( is_leap( yyyy ) && mm <= 2){
 
             total = total - 1;
         }
@@ -104,18 +104,18 @@ public class Exc13_7 {
         return offset;
     }
 
-    public static int is_leap( int year )
+    public static boolean is_leap( int year )
     {
-        int result;
+        boolean result;
 
         if ( year % 400 == 0 )
-            result = 1;
+            result = true;
         else if ( year % 100 == 0 )
-            result = 0;
+            result = false;
         else if ( year % 4 == 0 )
-            result = 1;
+            result = true;
         else
-            result = 0;
+            result = false;
 
         return result;
     }
