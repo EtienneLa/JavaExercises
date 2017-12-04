@@ -20,9 +20,9 @@ class Exc12_10 extends Canvas{
         }
     }
 
-    public void Viereck(Graphics v, Color c, int x, int y, int h, int w){
+    public void Viereck(Graphics v, Color b, int x, int y, int h, int w){
 
-        v.setColor(c);
+        v.setColor(b);
         v.fillRect(x,y,w,h);
         v.setColor(Color.WHITE);
         v.fillRect(x+10,y+10,w-20,h-20);

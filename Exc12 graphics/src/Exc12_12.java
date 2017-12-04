@@ -16,7 +16,6 @@ public class Exc12_12 extends Canvas {
         triangle.addPoint( x + 25, y);
         g.fillPolygon(triangle);
 
-
     }
 
     public void paint( Graphics g ){
@@ -28,9 +27,8 @@ public class Exc12_12 extends Canvas {
             int y = rng.nextInt( 615 );
             drawTree( g, x, y);
         }
+
     }
-
-
 
     public static void main( String[] args ){
 
