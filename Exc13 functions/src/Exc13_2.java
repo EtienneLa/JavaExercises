@@ -41,9 +41,11 @@ public class Exc13_2 {
         System.out.println("         allegiance             \r");
     }
     public static void fourth(){
+
         System.out.println("                    to the      \r");
     }
     public static void fifth(){
+
         System.out.println("                           flag.\r");
     }
 }
