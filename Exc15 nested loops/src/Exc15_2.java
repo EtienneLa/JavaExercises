@@ -10,11 +10,12 @@ public class Exc15_2 {
 
                     for ( int ones = 0; ones < 10; ones++ ){
 
-                        System.out.print( thous + "" + hund + "" + tens + "" + ones + "\r");
-                        Thread.sleep(1000);
+                        System.out.print( thous + "" + hund + "" + tens + "" + ones + "\n");
+                        Thread.sleep(500);
                     }
                 }
             }
         }
+        System.out.println();
     }
 }
