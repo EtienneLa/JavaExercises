@@ -8,7 +8,7 @@ public class Exc14_2 {
 
         String name;
 
-        System.out.print("What is your name? ");
+        System.out.print("What is your name: ");
         name = kb.next();
         System.out.println();
 
