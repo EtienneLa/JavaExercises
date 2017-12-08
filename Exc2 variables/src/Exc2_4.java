@@ -9,10 +9,10 @@ public class Exc2_4 {
         F3 = "Deutsch";
         F4 = "Sport";
         F5 = "Biologie";
-        L1 = "Fr. Marx";
-        L2 = "Hr. Beierle";
-        L3 = "Fr. Steggers";
-        L4 = "Fr. Nahlowski";
+        L1 = "Fr. X";
+        L2 = "Hr. X";
+        L3 = "Fr. Y";
+        L4 = "Fr. Z";
 
 
         System.out.println( "+---------------------------+");
