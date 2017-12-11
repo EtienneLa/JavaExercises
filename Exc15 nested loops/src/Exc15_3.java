@@ -6,7 +6,7 @@ public class Exc15_3 {
 
         Scanner kb = new Scanner(System.in);
 
-        System.out.print("Which base (2-10: ");
+        System.out.print("Which base (2-10): ");
         int b = kb.nextInt();
 
         for ( int thous = 0; thous < b; thous++ ){
