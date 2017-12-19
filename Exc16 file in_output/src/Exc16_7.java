@@ -14,6 +14,8 @@ public class Exc16_7 {
 
         BufferedReader read = new BufferedReader(new FileReader(file));
 
+        for ( hasNext());
+
 
     }
 }
