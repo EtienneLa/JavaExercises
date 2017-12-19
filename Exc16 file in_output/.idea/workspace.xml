@@ -68,11 +68,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exc16_6.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exc16_6.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exc16_6.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exc16_7.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exc16_7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/Exc16_4.java" />
         <option value="$PROJECT_DIR$/src/Exc16_5.java" />
         <option value="$PROJECT_DIR$/src/Exc16_6.java" />
+        <option value="$PROJECT_DIR$/src/Exc16_7.java" />
       </list>
     </option>
   </component>
@@ -379,7 +392,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -536,6 +549,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exc16_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
