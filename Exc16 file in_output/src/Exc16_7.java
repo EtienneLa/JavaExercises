@@ -9,13 +9,16 @@ public class Exc16_7 {
         Scanner kb = new Scanner(System.in);
         String file;
 
-        System.out.print("Wich file to open: ");
+        System.out.print("Which file to open: ");
         file = kb.next();
 
         BufferedReader read = new BufferedReader(new FileReader(file));
+        String line = read.readLine();
 
-        for ( hasNext());
+        while (line != null){
 
-
+            System.out.println(line);
+            line = read.readLine();
+        }
     }
 }
