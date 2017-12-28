@@ -5,7 +5,7 @@ public class Exc16_9 {
 
     public static void main(String[] args) throws Exception{
 
-        URL mcool = new URL ("http://cs.leanderisd.org/mitchellis.txt");
+        URL mcool = new URL ("https://cs.leanderisd.org/mitchellis.txt");
         Scanner webIn = new Scanner( mcool.openStream() );
 
         String str = webIn.nextLine();
