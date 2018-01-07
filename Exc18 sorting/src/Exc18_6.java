@@ -12,9 +12,9 @@ public class Exc18_6 {
             for (int j = 0; j < arr.length; j++){
 
                 if (arr[j] > arr[i]){
-                    int swap = arr[j];
-                    arr[j] = arr[i];
-                    arr[i] = swap;
+                    int swap = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = swap;
                     //slotadd++;
                 }
             }
