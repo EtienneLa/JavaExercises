@@ -25,6 +25,8 @@ public class Exc19_6 {
         second.age = filesc.nextInt();
         second.weight = filesc.nextInt();
 
+        filesc.close();
+
         System.out.println("First dog: " + first);
         System.out.println("Second dog: " + second);
 
