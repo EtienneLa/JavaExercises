@@ -1,0 +1,10 @@
+Toyota	Camry	1985	1234
+
+Chevrolet	Chevette	1980	1234
+
+Honda	Civic	1993	1234
+
+Ford	Mustang	1955	1234
+
+Dodge	Neon	1996	1234
+
