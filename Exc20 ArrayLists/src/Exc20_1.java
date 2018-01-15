@@ -4,29 +4,29 @@ public class Exc20_1 {
 
     public static void main( String[] args ) {
 
-        ArrayList<Integer> basic = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
 
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
-        basic.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
+        list.add(-113);
 
-        System.out.println("Slot 0: " + basic.get(0));
-        System.out.println("Slot 1: " + basic.get(1));
-        System.out.println("Slot 2: " + basic.get(2));
-        System.out.println("Slot 3: " + basic.get(3));
-        System.out.println("Slot 4: " + basic.get(4));
-        System.out.println("Slot 5: " + basic.get(5));
-        System.out.println("Slot 6: " + basic.get(6));
-        System.out.println("Slot 7: " + basic.get(7));
-        System.out.println("Slot 8: " + basic.get(8));
-        System.out.println("Slot 9: " + basic.get(9));
+        System.out.println("Slot 0: " + list.get(0));
+        System.out.println("Slot 1: " + list.get(1));
+        System.out.println("Slot 2: " + list.get(2));
+        System.out.println("Slot 3: " + list.get(3));
+        System.out.println("Slot 4: " + list.get(4));
+        System.out.println("Slot 5: " + list.get(5));
+        System.out.println("Slot 6: " + list.get(6));
+        System.out.println("Slot 7: " + list.get(7));
+        System.out.println("Slot 8: " + list.get(8));
+        System.out.println("Slot 9: " + list.get(9));
 
     }
 }
