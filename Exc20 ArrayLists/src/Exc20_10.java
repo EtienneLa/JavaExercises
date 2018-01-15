@@ -23,6 +23,7 @@ public class Exc20_10 {
 
             cars.add(car);
         }
+        filesc.close();
 
         Sorting( cars );
 
@@ -37,7 +38,14 @@ public class Exc20_10 {
         for ( int i = 0; i < cars.size() - 1; i++ ) {
             swap = i;
             for (int j = i + 1; j < cars.size(); j++)
-                if ( )
+                if ( cars.get(i).year < cars.get(j).year)
+                    swap = j;
+            if ( swap != i) {
+                Car temp = cars.get(i);
+                cars.set(i, cars.get(swap));
+                cars.set(swap, temp);
+            }
+
 
         }
     }
@@ -53,4 +61,5 @@ class Car {
     public String toString() {
         return year + " " + make + " " + model + " (" + license + ")";
     }
+
 }
