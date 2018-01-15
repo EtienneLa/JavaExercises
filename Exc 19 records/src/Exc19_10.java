@@ -42,7 +42,7 @@ public class Exc19_10 {
         int i, j, min;
         Cars temp;
 
-        for ( i = 0; i < cars.length - 1; i ++ ) {
+        for ( i = 0; i < cars.length - 1; i++ ) {
             min = i;
             for ( j = i + 1; j < cars.length; j++ )
                 if ( cars[j].year < cars[min].year )
