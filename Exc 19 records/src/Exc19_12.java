@@ -27,8 +27,8 @@ public class Exc19_12 {
 
         pupil_sort( pupils );
 
-        System.out.println("Data sorted.");
-        System.out.println("Here are the sorted grades:\n");
+        System.out.println("Data sorted.\n");
+        System.out.println("Here are the sorted grades:");
 
         for ( int i = 0; i < pupils.length; i++ )
             System.out.println(pupils[i]);
