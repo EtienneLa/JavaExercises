@@ -6,8 +6,8 @@ public class Exc23_ConvertingListsToArrays {
 
         String[] array = {"dies", "das", "Ananas"};
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.printf("%s ", array[i]);
+        for (String x : array) {
+            System.out.printf("%s ", x);
         }
         System.out.println();
 
@@ -21,8 +21,8 @@ public class Exc23_ConvertingListsToArrays {
         //back to an array
         array = list.toArray(new String[list.size()]);
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.printf("%s ", array[i]);
+        for (String x : array) {
+            System.out.printf("%s ", x);
         }
         System.out.println();
     }
