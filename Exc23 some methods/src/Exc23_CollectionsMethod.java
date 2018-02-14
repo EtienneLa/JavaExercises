@@ -42,7 +42,7 @@ public class Exc23_CollectionsMethod {
 
 
         //addAll method
-        String[] food = {"apples", "beef", "ham", "burgers"};
+        String[] food = {"apples", "beef", "ham", "burgers", "ham"};
         ArrayList<String> list1 = new ArrayList<>(Arrays.asList(food));
 
         ArrayList<String> list2 = new ArrayList<>();
@@ -58,8 +58,18 @@ public class Exc23_CollectionsMethod {
 
         for(String x : list2)
             System.out.printf("%s ", x);
+        System.out.println("\n-------------------");
+
+
+        //frequency method
+        System.out.println(Collections.frequency(list2, "youtube"));
+        System.out.println(Collections.frequency(list2, "ham"));
         System.out.println();
 
+
+        //disjoint method
+        boolean test = Collections.disjoint(list1, list2);
+        System.out.println(test);
     }
 
     private static void output(List<Character> list) {
