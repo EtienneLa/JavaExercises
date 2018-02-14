@@ -33,11 +33,32 @@ public class Exc23_CollectionsMethod {
         System.out.println("Copied list:");
         output(clist2);
 
+
         //fill method
         Collections.fill(clist, 'a');
         System.out.println("After filling:");
         output(clist);
+        System.out.println("-------------------");
 
+
+        //addAll method
+        String[] food = {"apples", "beef", "ham", "burgers"};
+        ArrayList<String> list1 = new ArrayList<>(Arrays.asList(food));
+
+        ArrayList<String> list2 = new ArrayList<>();
+        list2.add("youtube");
+        list2.add("google");
+        list2.add("twitter");
+
+        for(String x : list2)
+            System.out.printf("%s ", x);
+        System.out.println();
+
+        Collections.addAll(list2, food);
+
+        for(String x : list2)
+            System.out.printf("%s ", x);
+        System.out.println();
 
     }
 
