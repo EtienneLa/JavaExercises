@@ -30,12 +30,18 @@ public class Exc23_CollectionsMethod {
         List<Character> clist2 = Arrays.asList(cray2);
 
         Collections.copy(clist2, clist);
+        System.out.println("Copied list:");
         output(clist2);
+
+        //fill method
+        Collections.fill(clist, 'a');
+        System.out.println("After filling:");
+        output(clist);
 
 
     }
 
-    public static void output(List<Character> list) {
+    private static void output(List<Character> list) {
 
         for (char x : list)
             System.out.printf("%s ", x);
